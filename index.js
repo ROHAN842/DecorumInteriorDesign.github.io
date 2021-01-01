@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 // app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static('public'));
 app.get('/', function(req, res) {
-    res.sendFile(__dirname + '/index.html');
+    res.sendFile(__dirname + 'index.html');
 })
 
 
@@ -58,4 +58,4 @@ app.post("/ajax/email", function(request, response) {
 
 });
 
-app.listen(port, () => console.log("Server Started... at ${port}"));
+app.listen(3000, () => console.log("Server Started... at ${port}"));

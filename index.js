@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const nodemailer = require("nodemailer");
+const port = process.env.PORT || 3000;
 
 const app = express();
 
@@ -57,4 +58,4 @@ app.post("/ajax/email", function(request, response) {
 
 });
 
-app.listen(3000, () => console.log("Server Started..."));
+app.listen(port, () => console.log("Server Started... at ${port}"));

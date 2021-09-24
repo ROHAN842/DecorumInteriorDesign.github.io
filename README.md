@@ -20,24 +20,21 @@
 <img src="images/dec4.jpg">
 <img src="images/dec5.jpg">
 
-- Have a look at some of the finest Interior 🏠 Designs across various parts of country 🇮🇳
-- Real time video chat 📹 as well as normal chat 💬 with Peer
+- Have a look at some of the finest Interior 🏠 Designs across various parts of country 
 - Clean UI ⚡
-- Online compiler facility is also there where peers can test their optimized, as well as Brute Force approach 👨🏻‍💻
-- Leetcode, InterviewBit and HackerRank practice problems are mentioned in it in order to prepare for interviews ✊
-- If peer wants to meet at some location and do peercoding at some place, then they can share their location 📍
+- Categorization of various Interior Design Projects on the basis of Residential 🏘️, Office 🏢 and Commercial 🏭 space desinging as per the Client 🕵️‍♂️ requirement
 
-## What is Peer Coder? 🤔
+## What is Decorum? 🤔
 
-#### Remote pair programming is something developers have grappled with since well before the pandemic began. 
-#### Peercoder is basically a platform where two peers can do their interview preparation by practicing DSA problems and improve their problem solving skills.
-#### Peer Coder is ideal for Online Interviewing of Developers as well as Learning to code from Friends.
+#### Decorum is basically a website developed for such organizations who designs interior for Residence, Office and Commercial purposes as per the clients requirements. 
+#### De-corum also consists of various projects which the organization has completed till now in different cities of India.
+#### The front end is made with HTML5, CSS3, Bootstrap4 and Javascript, while the back end is made with Nodejs and Expressjs.
 
 
 ## How it works? 🤔
 - **Open the website [https://de-corum.herokuapp.com/](https://de-corum.herokuapp.com/)**
-- **Peer just needs to send same Room Name/id to another peer in order to join a room where apart from practicing problems they can share location, also they can communicate by doing normal chat as well as video chat with each other.**
-- **For Video Chat, peer just need to copy a unique id and send it to peer with whom he/she want to chat.**
+- **User can easily see various Interior Design projects, which orgaization has completed till now alongwith categorization between Interior Designs of Residence, Office and Commercial puropses.**
+- **By seeing the designs, user can easily communicate 📧 with the organization through Contact 📝 form present at footer of the website.**
 
 ## Dependencies 🗃
 
@@ -52,15 +49,12 @@
     >> For Windows: Git Bash
     >> For Linux: Terminal
     >> git clone https://github.com/ROHAN842/peercoder.git
-    >> cd Peercoder
+    >> cd MainFolder/DirectoryName
 > Install all dependencies
     >> npm i
-> Spin the server on port 5000
-    >> cd src
+> Spin the server on port 3000
+    >> cd MainFolder/DirectoryName
     >> nodemon or node index.js
-> Spin the react on port 3000
-    >> cd client
-    >> npm start
 > Visit the website on http://localhost:3000/
     
 ```
